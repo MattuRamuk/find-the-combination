@@ -1,0 +1,65 @@
+.my-header {
+    font-size: 60px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    height: calc(25vh);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+#playground {
+
+    display: inline-block;
+    border: 2px solid #000;
+    width: 100%;
+    height: calc(70vh);
+    overflow: auto;
+    text-align: center;
+    
+}
+#combination {
+    
+}
+
+#playBtn
+{
+   
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #fff;
+    background-color: #5418eb;
+    height: 48px;
+ 
+}
+
+.item {
+    width:20%;
+    height: 21px;
+    margin:10px 10px;
+    padding:10px;
+    position:relative;
+    border-radius:5px;
+    box-shadow:0 0 2px 2px #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-expanded;
+    cursor: pointer;
+    text-align: center;
+    font-stretch: ultra-expanded;
+    display: inline-block;
+    text-transform: uppercase;
+}
